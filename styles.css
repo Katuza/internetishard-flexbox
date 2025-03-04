@@ -104,7 +104,18 @@
   /* initial-> fixed=normal */
   width: 300px;
 }
-/* push the signup div to the right along with other div beneatg */
+/* push the signup div to the right along with other div beneath */
 /* .signup {
   margin-left: auto;
 } */
+
+/* examples of flex items properties */
+.flex {
+  flex-grow: 1;
+  flex-shrink: 5;
+  flex-basis: 200px;
+  /* Shorthand FLEX */
+  flex: 1;
+  align-self: center; /* change and overwrite to align style on an item */
+  order: -1; /* order of a flex items*/
+}
